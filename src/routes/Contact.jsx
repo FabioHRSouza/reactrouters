@@ -1,4 +1,5 @@
 import React from "react";
+import ContactForm from "../components/ContactForm";
 
 import { Link, useParams } from "react-router-dom";
 
@@ -11,6 +12,7 @@ export const Contact = () => {
         <Link to="/contact/2">Contato 2</Link> <br /><br />
         <Link to="/contact/3">Contato 3</Link> <br /><br />
       </p>
+      <ContactForm/>
     </div>
   );
 };
